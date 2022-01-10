@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/165ff6a13b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="01-home.html">home</a></li>
+                    <li><a href="02-campuses.html">campuses</a></li>
+                    <li><a href="03-about.html">about</a></li>
+                    <li><a href="04-courses.html">courses</a></li>
+                    <li><a href="05-certifications.html">certifications</a></li>
+                    <li><a href="06-online.html">online</a></li>
+                    <li><a href="07-facilities.html">facilities</a></li>
+                    <li><a href="08-contact.html">contact</a></li>
+                    <li><a href="09-payment.html">payment</a></li>
+                    <li><a href="10-testimonials.html">testimonials</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 style="font-size:52px;color: #effeff;">Contact Us</h1>
+    </section>
+
+        <!-- --------------Contact Us-------------- -->
+        
+        <section class="location">
+            <h1 style="color: rgb(248, 23, 237);">Our Contact location</h1>
+            <br>
+            <br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471218.38558905653!2d88.04952031572579!3d22.67638575928085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1623160985642!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+        
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Cental Kolkatta, Amrita Building, 700150</h5>
+                            <p>Kolkatta, West Bangal</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>9123997300</h5>
+                            <p>Monday to Saturday, 10AM to 6PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>aniket.kumar.giri2707@gmail.com</h5>
+                            <p>Email me your Query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <input type="phone" name="phone" placeholder="Enter your phone" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea name="message" id="" cols="" rows="5" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Submit</button>
+                    </form>
+        
+                </div>
+            </div>
+        </section>
+
+    <!-- -------------Footer--------------- -->
+
+    <section class="footer">
+        <h1 style="color: rgb(235, 15, 125);">About Us</h1>
+        <p>We are an Institute of National Importance. So, we maintain the best level for academics as well as overall
+            development of every student. <br> We provide the best quality in every aspects. That's all about our
+            institute.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <h2>Made <i class="fa fa-heart-o"></i> by Aniket Kumar Giri</h2>
+        <h3>Copyright &copy; 2022, ANI</h3>
+    </section>
+
+    <!--------------- JavaScript for Toggle Menu ----------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

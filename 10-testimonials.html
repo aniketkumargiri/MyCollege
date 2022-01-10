@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusted Testimonials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/165ff6a13b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="01-home.html">home</a></li>
+                    <li><a href="02-campuses.html">campuses</a></li>
+                    <li><a href="03-about.html">about</a></li>
+                    <li><a href="04-courses.html">courses</a></li>
+                    <li><a href="05-certifications.html">certifications</a></li>
+                    <li><a href="06-online.html">online</a></li>
+                    <li><a href="07-facilities.html">facilities</a></li>
+                    <li><a href="08-contact.html">contact</a></li>
+                    <li><a href="09-payment.html">payment</a></li>
+                    <li><a href="10-testimonials.html">testimonials</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 style="font-size:52px;color: #effeff;">Trusted Testimonials</h1>
+    </section>
+
+    <!-- -------------Testimonials-------------- -->
+
+    <section class="testimonials">
+        <h1 style="color: rgb(248, 23, 237);" style>Student's Testimonials</h1>
+        <p>What our students says about college. Their point of view(which matters a lot for us) as testimonials</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="img/test1.jpeg" alt="">
+                <div>
+                    <p>I am Anikthe K. Giri. I am a 2rd year B.Tech student in Computer
+                        Science in this institute. I
+                        just
+                        can't illustrate the golden period of my life in this institute. This institute has helped me in
+                        my overall personality development as well as technology field.</p>
+                    <h3>Anikthe K. Giri</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/test2.jpeg" alt="">
+                <div>
+                    <p>I am Payal Kumari. I am a BBA student in this institute. All the faculties are very helping &
+                        supportive.
+                        This institute provides me all kinds of guidance and support realted to academics, real world
+                        exposures and placement.
+                    </p>
+                    <h3>Payal Kumari</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="img/test3.jpeg" alt="">
+                <div>
+                    <p>I am Rishi Kumar. I am a 3rd year B.Tech student in Mechanical in this institute. This
+                        institution has the best of the labs across the country. Here, You can find all the research
+                        environment easily available.</p>
+                    <h3>Rishi Kumar</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="img/test4.jpg" alt="">
+                <div>
+                    <p>I am R. Arvind Aanand. I am a Post-Gradution research student in boitechnology in this
+                        institute. Projects, Journals are easily available. Research Facilities & Insfrastructure is
+                        really amazing.</p>
+                    <h3>R. Arvind Aanand</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- -------------Footer--------------- -->
+
+    <section class="footer">
+        <h1 style="color: rgb(235, 15, 125);">About Us</h1>
+        <p>We are an Institute of National Importance. So, we maintain the best level for academics as well as overall
+            development of every student. <br> We provide the best quality in every aspects. That's all about our
+            institute.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <h2>Made <i class="fa fa-heart-o"></i> by Aniket Kumar Giri</h2>
+        <h3>Copyright &copy; 2022, ANI</h3>
+    </section>
+
+    <!--------------- JavaScript for Toggle Menu ----------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

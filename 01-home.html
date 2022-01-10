@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University: Home-Page</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/165ff6a13b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- ---------------Header------------------- -->
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="01-home.html">home</a></li>
+                    <li><a href="02-campuses.html">campuses</a></li>
+                    <li><a href="03-about.html">about</a></li>
+                    <li><a href="04-courses.html">courses</a></li>
+                    <li><a href="05-certifications.html">certifications</a></li>
+                    <li><a href="06-online.html">online</a></li>
+                    <li><a href="07-facilities.html">facilities</a></li>
+                    <li><a href="08-contact.html">contact</a></li>
+                    <li><a href="09-payment.html">payment</a></li>
+                    <li><a href="10-testimonials.html">testimonials</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>World's Best University</h1>
+            <p>Ensuring the best quality education is the prime objective of my college. Be a member of <br> our
+                brilliant community and enlighten your bright future.</p>
+            <a href="02-campuses.html" class="hero-btn">Visit Us to know more</a>
+        </div>
+
+    </section>
+
+    <!-- -------------Footer--------------- -->
+
+    <section class="footer">
+        <h1 style="color: rgb(235, 15, 125);">About Us</h1>
+        <p>We are an Institute of National Importance. So, we maintain the best level for academics as well as overall
+            development of every student. <br> We provide the best quality in every aspects. That's all about our
+            institute.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <h2>Made <i class="fa fa-heart-o"></i> by Aniket Kumar Giri</h2>
+        <h3>Copyright &copy; 2022, ANI</h3>
+    </section>
+
+    <!--------------- JavaScript for Toggle Menu ----------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

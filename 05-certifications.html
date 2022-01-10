@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches & Certifications</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/165ff6a13b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="01-home.html">home</a></li>
+                    <li><a href="02-campuses.html">campuses</a></li>
+                    <li><a href="03-about.html">about</a></li>
+                    <li><a href="04-courses.html">courses</a></li>
+                    <li><a href="05-certifications.html">certifications</a></li>
+                    <li><a href="06-online.html">online</a></li>
+                    <li><a href="07-facilities.html">facilities</a></li>
+                    <li><a href="08-contact.html">contact</a></li>
+                    <li><a href="09-payment.html">payment</a></li>
+                    <li><a href="10-testimonials.html">testimonials</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 style="font-size:52px;color: #effeff;">Branches & Certifications</h1>
+    </section>
+
+    <!-- ---------------Certifications------------------- -->
+
+    <section class="blog-content">
+        <h1 style="text-align:center;color: #05f120;">Explore Our Courses & certifications</h1>
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/cirtificates.jpg" alt="">
+
+            </div>
+
+            <div class="blog-right">
+                <h3>Available Categories</h3>
+                <div>
+                    <span>Computer Science</span>
+                    <span>9</span>
+                </div>
+                <div>
+                    <span>Medical Sciences</span>
+                    <span>8</span>
+                </div>
+                <div>
+                    <span>Business Studies</span>
+                    <span>5</span>
+                </div>
+                <div>
+                    <span>Media and Journalism</span>
+                    <span>3</span>
+                </div>
+                <div>
+                    <span>Law & Order</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Arts & Humanities</span>
+                    <span>7</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <showcase>
+        <h1>POPULAR COURSES WE OFFER</h1>
+        <div id="courses">
+            <div class="cs">
+                <h3>Computer Science</h3>
+                <img src="img/cse.jpg" width="50%" alt="cs">
+                <a href="#"><button class="apply">
+                        <a href="#"><a href="#">Apply Here</a> </a>
+                    </button></a>
+            </div>
+            <div class="medical">
+                <h3>Medical Science</h3>
+                <img src="img/mds.jpg" alt="ms">
+                <a href="#"><button class="apply">
+                        <a href="#">Apply Here</a>
+                    </button></a>
+            </div>
+            <div class="business">
+                <h3>Business Studies</h3>
+                <img src="img/bns.jpg" alt="business">
+                <a href="#"><button class="apply">
+                        <a href="#">Apply Here</a>
+                    </button></a>
+            </div>
+        </div>
+
+        <br><br>
+        <div id="courses">
+            <div class="journalism">
+                <h3>Media and Journalism</h3>
+                <img src="img/media.jpg" alt="media">
+                <a href="#"><button class="apply">
+                        <a href="#">Apply Here</a>
+                    </button></a>
+            </div>
+            <div class="arts">
+                <h3>Law & Order</h3>
+                <img src="img/law.jpg" alt="arts">
+                <a href="#"><button class="apply">
+                        <a href="#">Apply Here</a>
+                    </button></a>
+            </div>
+            <div class="arts">
+                <h3>Arts & Humanities</h3>
+                <img src="img/culture.jpg" height="235" alt="arts">
+                <a href="#"><button class="apply">
+                        <a href="#">Apply Here</a>
+                    </button></a>
+            </div>
+        </div>
+
+    </showcase>
+
+    <!-- -------------Footer--------------- -->
+
+    <section class="footer">
+        <h1 style="color: rgb(235, 15, 125);">About Us</h1>
+        <p>We are an Institute of National Importance. So, we maintain the best level for academics as well as overall
+            development of every student. <br> We provide the best quality in every aspects. That's all about our
+            institute.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <h2>Made <i class="fa fa-heart-o"></i> by Aniket Kumar Giri</h2>
+        <h3>Copyright &copy; 2022, ANI</h3>
+    </section>
+
+    <!--------------- JavaScript for Toggle Menu ----------------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
